@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Futura Round", sans-serif;
+}
+
+@font-face {
+    font-family: "Futura Round";
+    src: local("Futura-Round"),
+    url("fonts/Futura-Round.ttf") format("truetype");
+}
