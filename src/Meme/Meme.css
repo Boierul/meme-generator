@@ -17,7 +17,13 @@ main {
     font-family: "Futura Light", sans-serif;
     letter-spacing: 1px;
     text-align: center;
+    border-color: rgba(255, 70, 98, 0.39);
 }
+
+.form-input:focus {
+    outline-color: #ff4662;
+}
+
 
 .form-button {
     grid-column: 1 / -1;
