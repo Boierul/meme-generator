@@ -41,8 +41,11 @@ main {
     outline-color: #ff4662;
 }
 
+.meme-image {
+    max-width: 800px;
+}
+
 .form-image {
-    padding: 30px;
-    max-width: 100%;
+    padding: 50px;
     text-align: center;
 }
