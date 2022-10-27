@@ -10,7 +10,6 @@ body {
     position: relative;
     min-width: 1500px;
     display: grid;
-    background: mediumpurple;
 }
 
 @font-face {
