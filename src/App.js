@@ -1,14 +1,12 @@
 import './App.css';
 import Navbar from "./Navbar/Navbar";
 import Meme from "./Meme/Meme";
-import Footer from "./Footer/Footer";
 
 function App() {
     return (
-        <div>
+        <div className={"main-page"}>
             <Navbar/>
             <Meme/>
-            <Footer/>
         </div>
     );
 }

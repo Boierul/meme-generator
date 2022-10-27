@@ -4,14 +4,14 @@ import memesData from "../LocalData/memesData";
 
 
 export default function Meme() {
-    // const [memeImage, setMemeImage] = React.useState("https://i.imgflip.com/3si4.jpg")
+    /* Init the first meme once the page is loaded */
     const [meme, setMeme] = React.useState({
         topText: "Shut up",
         bottomText: "and take my money",
         defaultImage: "https://i.imgflip.com/3si4.jpg",
     })
 
-    // Create a state to maintain all memes images
+    /*  Create a state to maintain all the meme images */
     const [allMemes, setAllMemes] = React.useState(memesData);
 
     function getMemeImage() {
@@ -24,6 +24,7 @@ export default function Meme() {
         }))
     }
 
+    /*  Custom handler for additional logic */
     function handleChange(event) {
         const {name, value} = event.target
         setMeme(prevState => ({
@@ -57,7 +58,7 @@ export default function Meme() {
                 </button>
             </div>
             <div className={"form-meme"}>
-                <img className={"meme-image"} src={meme.defaultImage}/>
+                <img className={"meme-image"} src={meme.defaultImage} alt={meme.name}/>
                 <h2 className="meme-text top">{meme.topText}</h2>
                 <h2 className="meme-text bottom">{meme.bottomText}</h2>
             </div>

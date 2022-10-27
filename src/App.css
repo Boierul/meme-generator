@@ -6,8 +6,18 @@ body {
     font-family: "Futura Round", sans-serif;
 }
 
+.main-page {
+    position: relative;
+    min-width: 1500px;
+    display: grid;
+    background: mediumpurple;
+}
+
 @font-face {
     font-family: "Futura Round";
     src: local("Futura-Round"),
     url("fonts/Futura-Round.ttf") format("truetype");
 }
+
+
+
