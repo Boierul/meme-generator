@@ -7,7 +7,9 @@ body {
 }
 
 .main-page {
+    padding: 5rem;
     position: relative;
+    justify-content: center;
     min-width: 1500px;
     display: grid;
 }
