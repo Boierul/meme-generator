@@ -6,7 +6,7 @@ import memesData from "../LocalData/memesData";
 export default function Meme() {
     /* Init the first meme once the page is loaded */
     const [meme, setMeme] = React.useState({
-        topText: "Shut up",
+        topText: "shut up",
         bottomText: "and take my money",
         defaultImage: "https://i.imgflip.com/3si4.jpg",
     })

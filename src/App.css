@@ -8,8 +8,7 @@ body {
 
 .main-page {
     padding: 5rem;
-    position: relative;
-    justify-content: center;
+    position: initial;
     min-width: 1500px;
     display: grid;
 }
